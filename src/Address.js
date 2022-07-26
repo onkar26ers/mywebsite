@@ -9,8 +9,8 @@ import { RiInstagramFill } from "react-icons/ri";
 
 export default function Address() {
   return (
-    <Card>
-      <Card.Body>
+    <Card id="addresscard">
+      <Card.Body id="addressbody">
         <Card.Text>
         <br/>
           <span class="title3">Call anytime</span>
