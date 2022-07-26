@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    background: rgb(47, 42, 39);
+    color: rgb(191, 182, 177);
+    /* height: 80px; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+#top{
+    display: flex;
+    background: rgb(61, 53, 50);
+    color: rgb(191, 182, 177);
+    /* height: 450px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    /* align-items: center; */
+    justify-content: center;
+    font-size: 18px;
+}
+.name{
+    font-size: 30px;
+    color: white;
+}
+.socials{
+    color: white;
+    font-size: 30px;
+    margin-right: 12px;
+}
+hr{
+    color: rgb(164, 124, 104);
+    
+}

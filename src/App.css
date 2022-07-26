@@ -1,0 +1,88 @@
+.blogbg{
+    background-image: url('../public/blogbg.jpg');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 90%;     */
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+#buttonpages{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#pagesbutton{
+    border-radius: 0%;
+    margin: 5px;
+    width: 48px;
+    background: RGB(164, 124, 104);
+    border: none;
+    height: 48px;
+}
+#pagesbuttongroup{
+    display: flex;
+    justify-content: center;
+}
+/* Contact */
+.contactbg{
+    background-image: url('../public/contact2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 90%;     */
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: ivory;
+    font-size: 50px;
+    padding-top: 100px;
+}
+#middle{
+    /* height: 700px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.title1{
+    font-size: 20px;
+}
+.title2{
+    font-size: 40px;
+}
+.form-control{
+    background-color: rgb(242, 238, 235);
+}
+.button{
+    background-color: rgb(60, 53, 49)
+}
+.title3{
+    font-size: 16px;
+    color: rgb(134, 122, 114);
+}
+.title4{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(60, 53, 49);
+}
+.social{
+    color: rgb(60, 53, 49);
+    font-size: 30px;
+}
+.card-body{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.card{
+    width: 330px;
+    border: none;
+    border-top: 10px solid rgb(164, 124, 104);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
+#cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
