@@ -1,7 +1,130 @@
+.teamdetail{
+    background-image: url('../public/teamdetailsbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 90%;     */
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+.title5{
+    font-size: 35px;
+}
+#aboutcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutbrand1{
+    font-weight: 500;
+}
+.yt{
+    color: rgb(236, 36, 36);
+    /* color: white; */
+    font-size: 150px;
+    /* background: white; */
+}
+.titleabout2{
+    color: ivory;
+    font-size: 50px;
+    /* padding-top: 100px; */
+    font-weight: 700;
+}
+#aboutbrand2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 700;
+}
+#aboutmid3{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#aboutmid2{
+    margin-bottom: 50px;
+}
+#aboutmid1{
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+#abouthr{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#aboutimage{
+    width: 530px;
+    border: none;
+    border-top: 10px solid rgb(164, 124, 104);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
+.checks{
+    font-size: 18px;
+    font-weight: 500;
+}
+.table{
+    /* color: white; */
+    height: 240px;
+    font-weight: 500;
+    font-size: 21px;
+    margin-top: 90px;
+}
+.checkstext1{
+    font-size: 18px;
+}
+.tablewhite{
+    color: white;
+}
+.tableblack{
+    background: rgb(116, 107, 102);
+    /* color: white; */
+}
+.abouttext{
+    font-size: 25px;
+    font-weight: 500;
+}
+.titleabout{
+    color: ivory;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.aboutbg2{
+    background-image: url('../public/aboutbg3.jpg');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 90%;     */
+    /* height: 575px; */
+    padding-top: 50px;
+    padding-bottom: 150px;
+    /* display: flex; */
+}
+.aboutbg{
+    background-image: url('../public/about2.jpg');
+    background-size: cover;
+    background-position: center;
+    /* opacity: 90%;     */
+    height: 575px;
+    display: flex;
+    justify-content: center;
+}
+#teamright{
+    display: flex;
+    justify-content: right;
+}
+/* About */
+#aboutcard{
+    border: none;
+    border-top: 8px solid rgb(164, 124, 104);
+    box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
 #blogcard{
     border: none;
     border-top: 10px solid rgb(70, 78, 178);
     box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+}
+#aboutref{
+    text-decoration: none;
+    color: black;
 }
 #blogref{
     text-decoration: none;
@@ -45,6 +168,10 @@
     display: flex;
     justify-content: center;
 }
+#membermid{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 /* Contact */
 .contactbg{
     background-image: url('../public/contact2.jpg');
@@ -55,10 +182,54 @@
     display: flex;
     justify-content: center;
 }
+#teamdetailstitle{
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#teamprogress{
+    margin-top: 10px;
+    background: rgb(242, 238, 235);
+}
+.progress-bar{
+    background-color: rgb(164, 124, 104);
+}
+#teamprogressname{
+    margin-bottom: 16px;
+    font-weight: 500;
+}
+#membermid2{
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+#membermid3{
+    /* padding-bottom: 50px; */
+}
+#teamdetailsbody{
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+#teamdetailsbody2{
+    font-size: 18px;
+    margin-top: 20px;
+}
 .title{
     color: ivory;
     font-size: 50px;
     padding-top: 100px;
+}
+#barspace1{
+    margin-left: 394px;
+    font-weight: 400;
+}
+#barspace2{
+    margin-left: 269px;
+    font-weight: 400;
+}
+#barspace3{
+    margin-left: 464px;
+    font-weight: 400;
 }
 #middle{
     /* height: 700px; */
@@ -70,8 +241,19 @@
 .title1{
     font-size: 20px;
 }
+.title7{
+    font-size: 17px;
+}
 .title2{
     font-size: 40px;
+}
+.title8{
+    font-size: 40px;
+    font-weight: 700;
+}
+#title8{
+    font-size: 40px;
+    font-weight: 700;
 }
 .form-control{
     background-color: rgb(242, 238, 235);
@@ -91,6 +273,11 @@
 .social{
     color: rgb(60, 53, 49);
     font-size: 30px;
+}
+.social1{
+    color: rgb(60, 53, 49);
+    font-size: 35px;
+    margin-right: 10px;
 }
 #addessbody{
 display: flex;

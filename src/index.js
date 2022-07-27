@@ -8,6 +8,8 @@ import {BrowserRouter} from "react-router-dom";
 // import {HashRouter} from "react-router-dom";
 import Contact from "./Contact";
 import Blog from "./Blog";
+import About from "./About";
+import Teamdetails from "./Teamdetails";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +20,8 @@ root.render(
         <Route path="/" element={<App />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/about/teamdetails" element={<Teamdetails />} />
         {/* <Route path="/mywebsite" element={<App />} />
         <Route path="/mywebsite/contact" element={<Contact />} />
         <Route path="/mywebsite/blog" element={<Blog />} /> */}

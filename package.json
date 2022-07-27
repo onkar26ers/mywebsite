@@ -2,7 +2,6 @@
   "name": "mywebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://onkar26ers.github.io/mywebsite",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
