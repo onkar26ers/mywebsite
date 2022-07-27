@@ -16,8 +16,11 @@ root.render(
     {/* <HashRouter> */}
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+        {/* <Route path="/mywebsite" element={<App />} />
+        <Route path="/mywebsite/contact" element={<Contact />} />
+        <Route path="/mywebsite/blog" element={<Blog />} /> */}
       </Routes>
     {/* </HashRouter> */}
     </BrowserRouter>
