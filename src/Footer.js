@@ -33,9 +33,9 @@ export default function Footer() {
             <Col xs={6} md className="mb-3">
             <span class="name">Explore</span>
             <hr class="footerhr"/>
-              &#xfe65;About <br />
-              &#xfe65;Contact
-              <br /> &#xfe65;Our Team
+              &#xfe65;<a href="/about" id="footera">About</a> <br />
+              &#xfe65;<a href="/contact" id="footera">Contact</a>
+              <br /> &#xfe65;<a href="/about/teamdetails" id="footera">Our Team</a>
               <br /> &#xfe65;Our Services
               <br /> &#xfe65;Latest Projects
               <br />
