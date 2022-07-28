@@ -9,7 +9,7 @@ export default function Teamcard2() {
         <Card.Body id="blogbody">
           <Card.Title id="teamright">
             <a href="/about/teamdetails" id="aboutref">
-            Amelia Bale Designer
+            Amelia Bale
             </a>
           </Card.Title>
           <Card.Footer>

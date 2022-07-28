@@ -3,7 +3,7 @@ export default function Contactform() {
   return (
     <>
       <Form>
-        <Row >
+        <Row>
           <span class="title1">CONTACT US</span>
           <br />
           <span class="title2">Feel Free to Write</span>
@@ -12,7 +12,11 @@ export default function Contactform() {
         <Row>
           <Col>
             <Form.Group className="mb-3" controlId="formName">
-              <Form.Control type="text" placeholder="Your name" />
+              <Form.Control
+                type="text"
+                placeholder="Your name"
+                required
+              />
             </Form.Group>
           </Col>
           <Col>
@@ -39,13 +43,23 @@ export default function Contactform() {
         <Row>
           <Col>
             <Form.Group className="mb-3" controlId="formPhone">
-              <Form.Control as="textarea" rows={6} placeholder="Write a message" />
+              <Form.Control
+                as="textarea"
+                rows={6}
+                placeholder="Write a message"
+              />
             </Form.Group>
           </Col>
         </Row>
         <Row>
           <Col>
-            <Button variant="dark" type="submit" size="lg" className="mb-3">
+            <Button
+              variant="dark"
+              type="submit"
+              href=""
+              size="lg"
+              className="mb-3"
+            >
               Send a Message
             </Button>
           </Col>

@@ -1,17 +1,77 @@
-.accordion-button{
-    background: rgb(246, 242, 235);
-    font-weight: 500;
-    /* border-top: 1px solid black; */
+#labelform{
+    /* font-size: 12px; */
 }
-.accordion-button:focus{
-    background: rgb(246, 241, 234);
-    font-weight: 500;
-    --bs-accordion-btn-focus-border-color: white;
-    /* border-top: 1px solid black; */
+body {
+  overflow-x: hidden;
+}
+#offheader{
+    padding-top: 35px;
+    padding-left: 240px;
+}
+#off{
+    width: 330px;
+}
+#offfont{
+    font-weight: 300;
+    font-size: 18px;
+}
+#lastoff{
+    padding-top: 420px;
+}
+#globe{
+    margin-right: 10px;
+    font-size: 19px;
+    margin-bottom: 4px;
+}
+.placeholder {
+    background: none;
+    opacity: 1;
+}
+
+#search {
+  background: none;
+  border: none;
+  color: black;
+  margin-right: 10px;
+  padding-top: 0px;
+  font-size: 22px;
+}
+#language{
+    background: none;
+    border: none;
+    color: black;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 0px;
+}
+#searchbar {
+  height: 40px;
+  margin-right: 10px !important;
+  background: rgb(255, 255, 255);
+}
+#searchbar:focus {
+  background: rgb(255, 255, 255);
+}
+#appoint {
+  width: 300px;
+}
+.accordion-button {
+  background: rgb(246, 242, 235);
+  font-weight: 500;
+  /* border-top: 1px solid black; */
+}
+.accordion-button:focus {
+  background: rgb(246, 241, 234);
+  font-weight: 500;
+  --bs-accordion-btn-focus-border-color: white;
+  /* border-top: 1px solid black; */
 }
 .accordion-button:not(.collapsed) {
-color: black;
-background-color: rgb(168, 154, 134);
+  color: black;
+  background-color: rgb(168, 154, 134);
+}
+#navmenu {
+  margin-right: 10px;
 }
 .homecarouseltitle1 {
   font-size: 20px;

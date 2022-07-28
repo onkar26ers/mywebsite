@@ -41,9 +41,10 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
-      <Row>
+      <Container fluid><Row>
         <Footer />
-      </Row>
+      </Row></Container>
+      
     </>
   );
 }

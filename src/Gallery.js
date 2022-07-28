@@ -44,12 +44,13 @@ export default function Gallery() {
           Gallery
         </Row>
       </Container>
-      <Row  id="gallerymid4"></Row>
+      <Row id="gallerymid4"></Row>
+      <Container fluid className="gx-0">
       <Carousel  indicators={false} activeIndex={value} interval={null} controls={false}>
         <Carousel.Item>
           <Row>
             <Col md={3} className={"gx-0"}>
-              <Image src={gallery1} fluid></Image>
+              <Image src={gallery1} fluid id="gallerymid3"></Image>
             </Col>
             <Col md={3} className={"gx-0"}>
               <Image src={gallery2} fluid id="gallerymid3"></Image>
@@ -63,7 +64,7 @@ export default function Gallery() {
           </Row>
           <Row>
             <Col md={3} className={"gx-0"}>
-              <Image src={gallery5} fluid></Image>
+              <Image src={gallery5} fluid id="gallerymid3"></Image>
             </Col>
             <Col md={3} className={"gx-0"}>
               <Image src={gallery6} fluid id="gallerymid3"></Image>
@@ -79,7 +80,7 @@ export default function Gallery() {
         <Carousel.Item>
           <Row>
             <Col md={3} className={"gx-0"}>
-              <Image src={gallery9} fluid></Image>
+              <Image src={gallery9} fluid id="gallerymid3"></Image>
             </Col>
             <Col md={3} className={"gx-0"}>
               <Image src={gallery10} fluid id="gallerymid3"></Image>
@@ -93,7 +94,7 @@ export default function Gallery() {
           </Row>
           <Row>
             <Col md={3} className={"gx-0"}>
-              <Image src={gallery13} fluid></Image>
+              <Image src={gallery13} fluid id="gallerymid3"></Image>
             </Col>
             <Col md={3} className={"gx-0"}>
               <Image src={gallery14} fluid id="gallerymid3"></Image>
@@ -107,6 +108,13 @@ export default function Gallery() {
           </Row>
         </Carousel.Item>
       </Carousel>
+      </Container>
+      <Row  id="gallerymid4"></Row>
+      
+
+
+
+
       <Container>
         <Row className="mt-3 justify-content-md-center">
             <ButtonGroup id="gallerybut">

@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Modal } from "react-bootstrap/esm/";
+import { Container, Row, Col, Modal, Placeholder } from "react-bootstrap/esm/";
 import { FaYoutube } from "react-icons/fa";
 import Topnav from "./Topnav";
 import Footer from "./Footer";
@@ -8,20 +8,20 @@ import Aboutdetails from "./Aboutdetails";
 import Abouttrusted from "./Abouttrusted";
 import Aboutteam from "./Aboutteam";
 import Abouttable from "./Abouttable";
-import Breadcrumbabout from "./Breadcrumbabout"
+import Breadcrumbabout from "./Breadcrumbabout";
 
 function YouTubeModal(props) {
   return (
-    <Modal {...props} centered dialogClassName="ytmodal" >
+    <Modal {...props} centered dialogClassName="ytmodal">
       <iframe
-          width="854"
-          height="480"
-          src="https://www.youtube.com/embed/O41Nm6l0sbY"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
+        width="854"
+        height="480"
+        src="https://www.youtube.com/embed/O41Nm6l0sbY"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
     </Modal>
   );
 }
@@ -36,7 +36,7 @@ export default function About() {
         </Row>
         <Row>
           <Col>
-          <Breadcrumbabout/>
+            <Breadcrumbabout />
           </Col>
         </Row>
         <Row>
@@ -67,13 +67,15 @@ export default function About() {
                   show={modalShow}
                   onHide={() => setModalShow(false)}
                 />
-                
-                <button id="ytbut" onClick={() => setModalShow(true)}>
+                <Placeholder animation="glow">
+                  <Placeholder><button id="ytbut" onClick={() => setModalShow(true)}>
                   <span class="yt">
                     <FaYoutube />
                   </span>
-                </button>
+                </button></Placeholder>
+                </Placeholder>
                 
+
                 <h1 class="titleabout2">Leadeing in Interior Design Market</h1>
               </Col>
               <Col md={4} id="cards" className="mt-3">

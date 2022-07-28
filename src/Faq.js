@@ -72,10 +72,10 @@ export default function Faq() {
                 </Accordion.Header>
                 <Accordion.Body>
                   <span className="text-muted">
-                    Here are few points where architect can save your money. 1.
-                    Architects design with your budget in mind. 2. Architects
-                    optimise the building's performance 3. Architects know what
-                    builders want. 4. Architects know when builders are lying.
+                    Here are few points where architect can save your money.<br/>1.
+                    Architects design with your budget in mind. <br/>2. Architects
+                    optimise the building's performance <br/>3. Architects know what
+                    builders want. <br/>4. Architects know when builders are lying.
                   </span>
                 </Accordion.Body>
               </Accordion.Item>
