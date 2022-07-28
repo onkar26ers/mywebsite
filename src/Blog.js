@@ -8,6 +8,7 @@ import Blogcard4 from "./Blogcard4";
 import Blogcard3 from "./Blogcard3";
 import Blogcard5 from "./Blogcard5";
 import Blogcard6 from "./Blogcard6";
+import Breadcrumbblog from "./Breadcrumbblog";
 
 export default function Blog() {
   return (
@@ -15,6 +16,11 @@ export default function Blog() {
       <Container fluid>
         <Row>
           <Topnav />
+        </Row>
+        <Row>
+          <Col>
+          <Breadcrumbblog/>
+          </Col>
         </Row>
         <Row>
           <div class="blogbg">

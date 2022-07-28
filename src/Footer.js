@@ -1,6 +1,4 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import "./Footer.css";
 import logo from "./logo.png";
 import { FaTwitterSquare, FaFacebookSquare, FaPinterestSquare, FaMapMarkerAlt, FaPhoneSquareAlt } from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri"
@@ -34,7 +32,7 @@ export default function Footer() {
             </Col>
             <Col xs={6} md className="mb-3">
             <span class="name">Explore</span>
-            <hr/>
+            <hr class="footerhr"/>
               &#xfe65;About <br />
               &#xfe65;Contact
               <br /> &#xfe65;Our Team
@@ -45,7 +43,7 @@ export default function Footer() {
             </Col>
             <Col xs={6} md className="mb-3">
             <span class="name">Services</span>
-              <hr/>
+              <hr class="footerhr"/>
               &#xfe65;Room Wallpapers
               <br />
               &#xfe65;Wall Painting
@@ -60,7 +58,7 @@ export default function Footer() {
             </Col>
             <Col xs={6} md className="mb-3">
             <span class="name">Contact</span>
-              <hr/>
+              <hr  class="footerhr"/>
               <FaPhoneSquareAlt/>&nbsp; Call anytime
               <br />
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(+91) 7845129850

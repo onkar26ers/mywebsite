@@ -1,5 +1,6 @@
-import { Container, Row, Col } from "react-bootstrap/esm/";
-import {RiYoutubeFill} from 'react-icons/ri'
+import React from "react";
+import { Container, Row, Col, Modal } from "react-bootstrap/esm/";
+import { FaYoutube } from "react-icons/fa";
 import Topnav from "./Topnav";
 import Footer from "./Footer";
 import Pages from "./Pages";
@@ -7,13 +8,36 @@ import Aboutdetails from "./Aboutdetails";
 import Abouttrusted from "./Abouttrusted";
 import Aboutteam from "./Aboutteam";
 import Abouttable from "./Abouttable";
+import Breadcrumbabout from "./Breadcrumbabout"
+
+function YouTubeModal(props) {
+  return (
+    <Modal {...props} centered dialogClassName="ytmodal" >
+      <iframe
+          width="854"
+          height="480"
+          src="https://www.youtube.com/embed/O41Nm6l0sbY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+    </Modal>
+  );
+}
 
 export default function About() {
+  const [modalShow, setModalShow] = React.useState(false);
   return (
     <>
       <Container fluid>
         <Row>
           <Topnav />
+        </Row>
+        <Row>
+          <Col>
+          <Breadcrumbabout/>
+          </Col>
         </Row>
         <Row>
           <div class="aboutbg">
@@ -39,10 +63,22 @@ export default function About() {
             <Row>
               <Col md={1}></Col>
               <Col md={6} id="ytabout">
-                <span class="yt"><RiYoutubeFill/></span>
+                <YouTubeModal
+                  show={modalShow}
+                  onHide={() => setModalShow(false)}
+                />
+                
+                <button id="ytbut" onClick={() => setModalShow(true)}>
+                  <span class="yt">
+                    <FaYoutube />
+                  </span>
+                </button>
+                
                 <h1 class="titleabout2">Leadeing in Interior Design Market</h1>
               </Col>
-              <Col md={4} id="cards" className="mt-3"><Abouttable/></Col>
+              <Col md={4} id="cards" className="mt-3">
+                <Abouttable />
+              </Col>
               <Col md={1}></Col>
             </Row>
           </div>

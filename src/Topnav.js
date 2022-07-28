@@ -4,6 +4,7 @@ import {
   Nav,
   NavDropdown,
   Offcanvas,
+  Button,
 } from "react-bootstrap";
 import { useState } from "react";
 import logo from "./logo.png";
@@ -29,29 +30,36 @@ export default function Topnav() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="#about">Projects</Nav.Link>
+              {/* <Nav.Link href="/about">About</Nav.Link> */}
+              <NavDropdown title="About" id="basic-nav-dropdown">
+              <NavDropdown.Item href="/about">
+                  About Us
+                </NavDropdown.Item>
+                <NavDropdown.Item href="/about/teamdetails">
+                  Team Details
+                </NavDropdown.Item>
+              </NavDropdown>
               <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="">
                   Room Wallpapers
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item href="">
                   Wall Painting
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="">
                   Wall Sheets
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="">
                   Outdoor Design
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="">
                   PVC Panels
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item href="">
                   Interior Design
                 </NavDropdown.Item>
                 <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
+                <NavDropdown.Item href="">
                   Services Carousel
                 </NavDropdown.Item>
               </NavDropdown>
@@ -59,9 +67,9 @@ export default function Topnav() {
               <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#about">Account</Nav.Link>
-              <Nav.Link href="#about">Cart</Nav.Link>
-              <Nav.Link onClick={handleShow}>Menu</Nav.Link>
+              
+              <Nav.Link onClick={handleShow}><span style={{margin:"10px"}}>Menu</span></Nav.Link>
+              <Button href="/contact" variant="outline-dark">Book Appointment</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

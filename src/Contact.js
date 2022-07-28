@@ -1,10 +1,10 @@
 import Topnav from "./Topnav";
 import Container from "react-bootstrap/esm/Container";
-import "./Contact.css";
 import { Row, Col } from "react-bootstrap";
 import Contactform from "./Contactform";
 import Address from "./Address";
 import Footer from "./Footer";
+import Breadcrumbcontact from "./Breadcrumbcontact";
 
 export default function Contact() {
   return (
@@ -12,6 +12,11 @@ export default function Contact() {
       <Container fluid>
         <Row>
           <Topnav />
+        </Row>
+        <Row>
+          <Col>
+          <Breadcrumbcontact/>
+          </Col>
         </Row>
         <Row>
           <div class="contactbg">

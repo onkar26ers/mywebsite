@@ -36,34 +36,6 @@ export default function Teammember() {
     }
   })
 
-  
-
-  // if(document.documentElement.scrollTop > 900){
-  //   const updateProgress2 = setInterval(() => {
-  //     if (progressNow2 <= 60 ){
-  //      setProgressNow1(60)
-  //     }else{
-  //       setProgressNow2(s => s+1)
-  //     }
-  //    }, 50)
-  // }
-
-
-  // const updateProgress2 = setInterval(() => {
-  //   if (progressNow2 <= 60 ){
-  //    setProgressNow2(60)
-  //   }else{
-  //     setProgressNow2(s => s+1)
-  //   }
-  //  }, 50)
-  //  const updateProgress3 = setInterval(() => {
-  //   if (progressNow3 <= 95 ){
-  //    setProgressNow3(95)
-  //   }else{
-  //     setProgressNow3(s => s+1)
-  //   }
-  //  }, 50)
-
   return (
     <>
       <Container>

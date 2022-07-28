@@ -2,6 +2,7 @@ import Topnav from "./Topnav";
 import { Container, Row, Col } from "react-bootstrap/esm/";
 import Footer from "./Footer";
 import Teammember from "./Teammember";
+import Breadcrumbteam from "./Breadcrumbteam";
 
 export default function Teamdetails() {
   return (
@@ -9,6 +10,11 @@ export default function Teamdetails() {
       <Container fluid>
         <Row>
           <Topnav />
+        </Row>
+        <Row>
+          <Col>
+          <Breadcrumbteam/>
+          </Col>
         </Row>
         <Row>
           <div class="teamdetail">
