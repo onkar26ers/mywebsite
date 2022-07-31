@@ -9,7 +9,7 @@ export default function Teamcard() {
         {/* <Card.Img variant="top" src={member1}></Card.Img> */}
         <Card.Body id="blogbody">
           <Card.Title id="teamright">
-            <a href="/about/teamdetails1" id="aboutref">
+            <a href="/about/owen" id="aboutref">
             Owen Reece
             </a>
           </Card.Title>
