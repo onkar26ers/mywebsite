@@ -5,10 +5,12 @@ export default function Blogcard5() {
   return (
     <>
       <Card id="blogcard">
+      <Card.Link href="/blog5">
         <Card.Img variant="top" src={blog5} />
+        </Card.Link>
         <Card.Body id="blogbody">
           <Card.Title>
-            <a href="#home" id="blogref">
+            <a href="/blog5" id="blogref">
               House Accessories
             </a>
           </Card.Title>

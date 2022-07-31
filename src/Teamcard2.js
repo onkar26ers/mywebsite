@@ -5,7 +5,8 @@ export default function Teamcard2() {
   return (
     <>
       <Card id="aboutcard">
-        <Card.Img variant="top" src={member6a} />
+        <Card.Link href="/about/amelia"><Card.Img variant="top" src={member6a} /></Card.Link>
+        {/* <Card.Img variant="top" src={member6a} /> */}
         <Card.Body id="blogbody">
           <Card.Title id="teamright">
             <a href="/about/teamdetails" id="aboutref">

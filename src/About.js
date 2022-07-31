@@ -3,7 +3,7 @@ import { Container, Row, Col, Modal, Placeholder } from "react-bootstrap/esm/";
 import { FaYoutube } from "react-icons/fa";
 import Topnav from "./Topnav";
 import Footer from "./Footer";
-import Pages from "./Pages";
+// import Pages from "./Pages";
 import Aboutdetails from "./Aboutdetails";
 import Abouttrusted from "./Abouttrusted";
 import Aboutteam from "./Aboutteam";
@@ -92,13 +92,13 @@ export default function About() {
           </Col>
           <Col md={1}></Col>
         </Row>
-        <Row id="buttonpages">
+        {/* <Row id="buttonpages">
           <Col md={5}></Col>
           <Col id="pagesbuttongroup">
             <Pages />
           </Col>
           <Col md={5}></Col>
-        </Row>
+        </Row> */}
         <Row>
           <Footer />
         </Row>

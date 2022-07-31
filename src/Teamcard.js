@@ -5,10 +5,11 @@ export default function Teamcard() {
   return (
     <>
       <Card id="aboutcard">
-        <Card.Img variant="top" src={member1} />
+        <Card.Link href="/about/owen"><Card.Img variant="top" src={member1}></Card.Img></Card.Link>
+        {/* <Card.Img variant="top" src={member1}></Card.Img> */}
         <Card.Body id="blogbody">
           <Card.Title id="teamright">
-            <a href="/about/teamdetails" id="aboutref">
+            <a href="/about/teamdetails1" id="aboutref">
             Owen Reece
             </a>
           </Card.Title>

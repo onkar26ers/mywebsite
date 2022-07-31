@@ -1,7 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap/esm/";
 import Topnav from "./Topnav";
 import Footer from "./Footer";
-import Pages from "./Pages";
+// import Pages from "./Pages";
 import Blogcard from "./Blogcard";
 import Blogcard2 from "./BlogCard2";
 import Blogcard4 from "./Blogcard4";
@@ -29,11 +29,11 @@ export default function Blog() {
         </Row>
         <Row id="blogmiddle">
             <Container>
-                <Row>
+                <Row >
                 <Col md={1}></Col>
-                    <Col  md xs={12}><Blogcard/></Col>
-                    <Col  md xs={12}><Blogcard2/></Col>
-                    <Col  md xs={12}><Blogcard3/></Col>
+                    <Col  md xs={12}  className="mt-3"><Blogcard/></Col>
+                    <Col  md xs={12}  className="mt-3"><Blogcard2/></Col>
+                    <Col  md xs={12}  className="mt-3"><Blogcard3/></Col>
                     <Col md={1}></Col>
                 </Row>
             </Container>
@@ -51,20 +51,20 @@ export default function Blog() {
             </Col>
             <Col md={1}></Col> */}
             <Container>
-                <Row>
+                <Row >
                 <Col md={1}></Col>
-                    <Col  md xs={12}><Blogcard4/></Col>
-                    <Col  md xs={12}><Blogcard5/></Col>
-                    <Col  md xs={12}><Blogcard6/></Col>
+                    <Col  md xs={12} className="mt-3"><Blogcard4/></Col>
+                    <Col  md xs={12} className="mt-3"><Blogcard5/></Col>
+                    <Col  md xs={12} className="mt-3"><Blogcard6/></Col>
                     <Col md={1}></Col>
                 </Row>
             </Container>
         </Row>
-        <Row id="buttonpages">
+        {/* <Row id="buttonpages">
             <Col md={5}></Col>
             <Col id="pagesbuttongroup"><Pages/></Col>
             <Col md={5}></Col>
-        </Row>
+        </Row> */}
         <Row>
           <Footer />
         </Row>

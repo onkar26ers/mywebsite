@@ -1,4 +1,4 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import logo from "./logo.png";
 import { FaTwitterSquare, FaFacebookSquare, FaPinterestSquare, FaMapMarkerAlt, FaPhoneSquareAlt } from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri"
@@ -25,10 +25,10 @@ export default function Footer() {
               in advertising sector.
               <br />
               <br />
-              <a href="#instagram" class="socials">< RiInstagramFill/></a>
-              <a href="#instagram" class="socials"><FaFacebookSquare/></a>
-              <a href="#instagram" class="socials"><FaTwitterSquare/></a>
-              <a href="#instagram" class="socials"><FaPinterestSquare/></a>
+              <a href="https://www.instagram.com/liquid.indonesia/" target="_blank" class="socials" rel="noreferrer">< RiInstagramFill/></a>
+              <a href="https://www.facebook.com/Liquid.Ind/" target="_blank" class="socials" rel="noreferrer"><FaFacebookSquare/></a>
+              <a href="https://twitter.com/INTERlORS?lang=en" target="_blank" class="socials" rel="noreferrer"><FaTwitterSquare/></a>
+              <a href="https://www.pinterest.com/liquidindonesia/" target="_blank" class="socials" rel="noreferrer"><FaPinterestSquare/></a>
             </Col>
             <Col xs={6} md className="mb-3">
             <span class="name">Explore</span>

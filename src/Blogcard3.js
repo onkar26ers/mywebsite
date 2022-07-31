@@ -6,10 +6,12 @@ export default function Blogcard3() {
   return (
     <>
       <Card id="blogcard">
+      <Card.Link href="/blog3">
         <Card.Img variant="top" src={blog3} />
+        </Card.Link>
         <Card.Body id="blogbody">
           <Card.Title>
-            <a href="#home" id="blogref">
+            <a href="/blog3" id="blogref">
               House Renovating&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <Badge bg="danger">
                 <BiTrendingUp/>

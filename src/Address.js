@@ -33,16 +33,16 @@ export default function Address() {
           <hr />
           <Container>
             <Row>
-              <Col> <a href="#instagram" class="social">
+              <Col> <a href="https://www.instagram.com/liquid.indonesia/" target="_blank" class="social" rel="noreferrer">
             <RiInstagramFill />
           </a></Col>
-              <Col> <a href="#instagram" class="social">
+              <Col> <a href="https://www.facebook.com/Liquid.Ind/" target="_blank" class="social" rel="noreferrer">
             <FaFacebookSquare />
           </a></Col>
-              <Col><a href="#instagram" class="social">
+              <Col><a href="https://twitter.com/INTERlORS?lang=en" target="_blank" class="social" rel="noreferrer">
             <FaTwitterSquare />
           </a></Col>
-              <Col><a href="#instagram" class="social">
+              <Col><a href="https://www.pinterest.com/liquidindonesia/" target="_blank" class="social" rel="noreferrer">
             <FaPinterestSquare />
           </a></Col>
             </Row>
