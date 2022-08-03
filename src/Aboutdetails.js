@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { FiCheckCircle } from "react-icons/fi";
-import aboutrow1 from './aboutrow1.jpg'
+import aboutrow1 from './images/aboutrow1.jpg'
 
 export default function Aboutdetails() {
   return (

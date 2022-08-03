@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import blog1 from "./blog-1.jpg";
+import blog1 from "./images/blog-1.jpg";
 
 export default function Blogcard() {
   return (

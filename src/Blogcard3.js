@@ -1,6 +1,6 @@
 import {Card, Badge} from "react-bootstrap";
 import {BiTrendingUp} from 'react-icons/bi';
-import blog3 from "./blog-3.jpg";
+import blog3 from "./images/blog-3.jpg";
 
 export default function Blogcard3() {
   return (

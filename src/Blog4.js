@@ -11,7 +11,7 @@ import Footer from "./Footer";
 import Categories from "./Categories";
 import Tags from "./Tags";
 import { FaUserEdit, FaClock } from "react-icons/fa";
-import blog4 from "./blog-4.jpg";
+import blog4 from "./images/blog-4.jpg";
 import Comment from "./Comment";
 import Recentposts2 from "./Recentposts2";
 

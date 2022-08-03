@@ -1,15 +1,10 @@
-import { React, useContext } from "react";
+import { React } from "react";
 import {
   Container,
   Row,
   Col,
   Accordion,
-  AccordionContext,
-  Card,
 } from "react-bootstrap";
-import { useAccordionButton } from "react-bootstrap/AccordionButton";
-import { FaMinusCircle, FaPlusCircle } from "react-icons/fa";
-
 export default function Faq() {
   return (
     <>

@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "./logo.png";
+import logo from "./images/logo.png";
 import { FaTwitterSquare, FaFacebookSquare, FaPinterestSquare, FaMapMarkerAlt, FaPhoneSquareAlt } from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri"
 import {BsMailbox2} from "react-icons/bs"

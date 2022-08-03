@@ -12,7 +12,7 @@ import Categories from "./Categories";
 import Tags from "./Tags";
 import Recentposts2 from "./Recentposts2";
 import { FaUserEdit, FaClock } from "react-icons/fa";
-import blog5 from "./blog-5b.jpg";
+import blog5 from "./images/blog-5b.jpg";
 import Comment from "./Comment";
 
 export default function Blog5() {

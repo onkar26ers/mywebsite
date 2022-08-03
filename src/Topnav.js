@@ -14,7 +14,7 @@ import {
 } from "react-bootstrap";
 import React from "react";
 import { useState } from "react";
-import logo from "./logo.png";
+import logo from "./images/logo.png";
 import { BsSearch, BsGlobe } from "react-icons/bs";
 
 

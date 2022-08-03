@@ -1,9 +1,9 @@
 import { Carousel, Button } from "react-bootstrap";
 // import home3 from "./home3a.jpg";
 // import home4 from "./home4a.jpg";
-import home6 from "./home6e.jpg";
-import home10 from "./home10a.jpg";
-import home11 from "./home11.jpg";
+import home6 from "./images/home6e.jpg";
+import home10 from "./images/home10a.jpg";
+import home11 from "./images/home11.jpg";
 
 export default function Homecarousel() {
   return (

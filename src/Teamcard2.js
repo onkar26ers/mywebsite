@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import member6a from './member6a.jpg'
+import member6a from './images/member6a.jpg'
 
 export default function Teamcard2() {
   return (

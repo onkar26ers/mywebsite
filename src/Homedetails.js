@@ -1,6 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import { BsBookmarkStarFill } from "react-icons/bs";
-import homemid from "./homemid.jpg";
+import homemid from "./images/homemid.jpg";
 
 export default function Homedetails() {
   return (

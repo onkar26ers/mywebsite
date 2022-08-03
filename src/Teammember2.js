@@ -6,7 +6,7 @@ import {
   FaPinterestSquare,
 } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
-import member6 from "./member6b.jpg";
+import member6 from "./images/member6b.jpg";
 export default function Teammember2() {
 
   const [progressNow1, setProgressNow1] = useState(0)
